@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="main-layout">
       <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <h1>Supabase react</h1>
+        <h1 style={{ fontSize: '1.5rem', margin: 0 }}>Supabase react</h1>
         <button 
           onClick={() => supabase.auth.signOut()}
           style={{ background: '#444', padding: '8px 15px', borderRadius: '8px' }}
