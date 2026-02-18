@@ -20,7 +20,7 @@ function App() {
         <Login />
       ) : (
         <TaskContextProvider>
-          <button onClick={() => supabase.auth.signOut()}>Cerrar tu sesion</button>
+          <button onClick={() => supabase.auth.signOut()}>Cerrar tu sesion actual</button>
           <TaskForm />
           <TaskList />
         </TaskContextProvider>
