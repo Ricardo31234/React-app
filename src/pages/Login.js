@@ -23,7 +23,7 @@ function Login() {
           onChange={(e) => setEmail(e.target.value)}
           required
         />
-        <button>Enviar Magic Link</button>
+        <button>Enviar</button>
       </form>
     </div>
   );
